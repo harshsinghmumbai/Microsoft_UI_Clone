@@ -14,7 +14,7 @@ const Slider = () => {
         </div>
         <div
           id="container"
-          className="p-5 md:border md:rounded-lg md:shadow-xl md:w-[96%] md:m-auto md:-mt-[3rem] md:bg-white lg:-mt-0 lg:w-[40%] lg:mb-0 lg:h-[12.50rem] lg:bg-[#f2f2f2] lg:shadow-none lg:border-0  "
+          className="p-5 md:border md:rounded-lg md:shadow-xl md:w-[96%] md:m-auto md:-mt-[3rem] md:bg-white lg:-mt-0 lg:w-[40%] lg:mb-0 lg:h-[12.50rem] lg:bg-[#f2f2f2] lg:shadow-none lg:border-0 shadow-md  "
         >
           <h1 className="text-2xl font-semibold mb-3 lg:text-3xl">Surface Pro 9</h1>
           <p className="text-base mb-5 lg:text-lg">
