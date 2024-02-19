@@ -1,8 +1,13 @@
+import Card_Container from "./Components/Card_Container";
 import Header from "./Components/Header";
 import Promo from "./Components/Promo";
 import Slider from "./Components/Slider";
+import Card_items1 from "./API/Card_items1";
+import { useState } from "react";
 
 const App = () => {
+  const [data, setdata] = useState(Card_items1);
+  // console.log(data)
   return (
     <>
       <div className="max-w-[1480px] m-auto ">
@@ -14,6 +19,7 @@ const App = () => {
       <div className="max-w-[1100px] m-auto">
         <Promo />
       </div>
+      <Card_Container datas={data} />
     </>
   );
 };
