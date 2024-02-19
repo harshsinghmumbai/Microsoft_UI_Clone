@@ -1,29 +1,31 @@
+import { IoIosArrowForward } from "react-icons/io";
+
 const Card_Container = ({ datas }) => {
-  console.log(datas);
+  // console.log(datas);
   return (
     <>
       {datas.map((elem) => {
         return (
-          <div className="w-[300px] rounded-md border" key={elem.id}>
+          <div className="w-full rounded-md m-auto mt-10 sm:mt-0" key={elem.id}>
             <img
               src={elem.images}
               alt="Laptop"
               className="h-[200px] w-full rounded-t-md object-cover"
             />
             <div className="p-4">
-              <h1 className="inline-flex items-center text-lg font-semibold">
-                About Macbook
+              <h1 className="inline-flex items-center text-2xl font-semibold ">
+                {elem.title}
               </h1>
-              <p className="mt-3 text-sm text-gray-600">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Excepturi, debitis?
-              </p>
+              <p className="mt-3 text-base text-gray-600">{elem.description}</p>
 
               <button
                 type="button"
-                className="mt-4 w-full rounded-sm bg-black px-2 py-1.5 text-sm font-semibold text-white"
+                className="text-xl font-semibold mt-3 text-blue-800 flex justify-center items-center"
               >
-                Read
+                {elem.more}
+                <span className="ml-1 pt-1">
+                  <IoIosArrowForward />
+                </span>
               </button>
             </div>
           </div>
