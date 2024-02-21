@@ -10,7 +10,7 @@ const Card_Container = ({ datas }) => {
             <img
               src={elem.images}
               alt="Laptop"
-              className="h-[200px] w-full rounded-t-md object-cover"
+              className="h-[200px] w-full rounded-t-md object-center"
             />
             <div className="p-4">
               <h1 className="inline-flex items-center text-2xl font-semibold ">

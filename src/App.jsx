@@ -4,6 +4,7 @@ import Promo from "./Components/Promo";
 import Slider from "./Components/Slider";
 import Card_items1 from "./API/Card_items1";
 import { useState } from "react";
+import Shop from "./Components/Shop";
 
 const App = () => {
   const [data, setdata] = useState(Card_items1);
@@ -22,6 +23,7 @@ const App = () => {
       <div className="p-3 sm:grid sm:grid-cols-2 sm:grid-rows-2 sm:gap-3 lg:flex max-w-[1600px] m-auto">
         <Card_Container datas={data} />
       </div>
+      <Shop/>
     </>
   );
 };
