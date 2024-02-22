@@ -20,10 +20,12 @@ const App = () => {
       <div className="max-w-[1100px] m-auto">
         <Promo />
       </div>
-      <div className="p-3 sm:grid sm:grid-cols-2 sm:grid-rows-2 sm:gap-3 lg:flex max-w-[1600px] m-auto">
+      <div className="p-4 sm:grid sm:grid-cols-2 sm:grid-rows-2 sm:gap-3 lg:flex max-w-[1600px] m-auto">
         <Card_Container datas={data} />
       </div>
-      <Shop/>
+      <div className="p-3 max-w-[1600px] m-auto">
+        <Shop />
+      </div>
     </>
   );
 };

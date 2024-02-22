@@ -23,7 +23,7 @@ const Header = () => {
               alt=""
               className="w-28 h-7 cursor-pointer "
             />
-            <nav id="navbar" className="hidden md:block ml-3 lg:ml-7">
+            <nav id="navbar" className="hidden md:block ml-3 lg:ml-7 ">
               <ul className="flex justify-between space-x-3 text-sm ">
                 <li className="md:hover:underline md:underline-offset-[5px] md:decoration-2">
                   Microsoft 365
