@@ -5,6 +5,7 @@ import Slider from "./Components/Slider";
 import Card_items1 from "./API/Card_items1";
 import { useState } from "react";
 import Shop from "./Components/Shop";
+import Card_Container_1 from "./Components/Card_Container_1";
 
 const App = () => {
   const [data, setdata] = useState(Card_items1);
@@ -25,6 +26,9 @@ const App = () => {
       </div>
       <div className="p-3 max-w-[1600px] m-auto">
         <Shop />
+      </div>
+      <div className="">
+        <Card_Container_1 />
       </div>
     </>
   );
