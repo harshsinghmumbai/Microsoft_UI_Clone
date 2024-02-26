@@ -5,11 +5,12 @@ import Slider from "./Components/Slider";
 import Card_items1 from "./API/Card_items1";
 import { useState } from "react";
 import Shop from "./Components/Shop";
-import Card_Container_1 from "./Components/Card_Container_1";
+import Card_Items from "./Components/Card_Items";
+import Promo_loop from "./API/Promo_loop";
 
 const App = () => {
   const [data, setdata] = useState(Card_items1);
-  // console.log(data)
+  const [value, setvalue] = useState(Promo_loop);
   return (
     <>
       <div className="max-w-[1480px] m-auto ">
@@ -19,7 +20,7 @@ const App = () => {
         <Slider />
       </div>
       <div className="max-w-[1100px] m-auto">
-        <Promo />
+        <Promo values={value} />
       </div>
       <div className="p-4 sm:grid sm:grid-cols-2 sm:grid-rows-2 sm:gap-3 lg:flex max-w-[1600px] m-auto">
         <Card_Container datas={data} />
@@ -28,7 +29,7 @@ const App = () => {
         <Shop />
       </div>
       <div className="">
-        <Card_Container_1 />
+        <Card_Items />
       </div>
     </>
   );

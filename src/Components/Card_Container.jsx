@@ -10,7 +10,7 @@ const Card_Container = ({ datas }) => {
             <img
               src={elem.images}
               alt="Laptop"
-              className="h-[200px] w-full rounded-t-md object-center"
+              className="h-[200px] w-full rounded-t-md object-center lg:object-cover "
             />
             <div className="p-4">
               <h1 className="inline-flex items-center text-2xl font-semibold ">
@@ -18,10 +18,7 @@ const Card_Container = ({ datas }) => {
               </h1>
               <p className="mt-3 text-base text-gray-600">{elem.description}</p>
 
-              <button
-                type="button"
-                className="text-xl font-semibold mt-3 text-blue-800 flex justify-center items-center"
-              >
+              <button type="button" className="btn-design">
                 {elem.more}
                 <span className="ml-1 pt-1">
                   <IoIosArrowForward />
