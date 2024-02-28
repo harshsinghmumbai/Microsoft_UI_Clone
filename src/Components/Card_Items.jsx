@@ -19,8 +19,8 @@ const Card_Items = () => {
     title: " Windows 11 for business",
     images: "../src/assets/cards_2.3.avif",
     description:
-      "  Designed for hybrid work. Powerful for employees. Consistent for IT. Secure for all.",
-    more: " Learn more",
+      "Designed for hybrid work. Powerful for employees.Consistent for IT. Secure for all.",
+    more: "Learn more",
   };
   const data4 = {
     title: "Join the era of AI",
@@ -31,11 +31,15 @@ const Card_Items = () => {
   };
   return (
     <>
-      <h1 className="text-2xl font-semibold px-5 mb-4 mt-16">For business</h1>
-      <Card_Props {...data1} />
-      <Card_Props {...data2} />
-      <Card_Props {...data3} />
-      <Card_Props {...data4} />
+      <h1 className="text-2xl font-semibold px-5 mb-4 sm:mb-0 mt-16 sm:mt-3 ">
+        For business
+      </h1>
+      <div className="sm:grid sm:grid-row-2 sm:grid-cols-2 sm:gap-2 lg:flex lg:justify-evenly p-3">
+        <Card_Props {...data1} />
+        <Card_Props {...data2} />
+        <Card_Props {...data3} />
+        <Card_Props {...data4} />
+      </div>
     </>
   );
 };

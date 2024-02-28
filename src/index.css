@@ -3,4 +3,7 @@
 .btn-design {
   @apply text-lg font-semibold mt-3 text-blue-800 flex justify-center items-center;
 }
+.max-W {
+  @apply max-w-[1600px] m-auto;
+}
 @tailwind utilities;

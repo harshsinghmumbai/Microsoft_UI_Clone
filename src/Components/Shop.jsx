@@ -6,7 +6,7 @@ const Shop = () => {
           <img
             src="../src/assets/shop.jpg"
             alt="Laptop"
-            className="h-[200px] w-full rounded-t-md object-center sm:h-[400px] lg:object-cover lg:w-full xl:h-[5b00px]"
+            className="h-[200px] w-full rounded-t-md object-center sm:h-[400px] lg:object-cover lg:w-full xl:h-[500px]"
           />
         </div>
         <div className="p-4 md:p-3 md:border md:rounded-lg md:shadow-xl md:w-[96%] md:m-auto lg:m-0 md:-mt-[3rem] lg:mt-0 md:z-10 md:bg-white lg:w-[30%] lg:bg-[#e6e6e6] lg:shadow-none">

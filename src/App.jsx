@@ -16,19 +16,19 @@ const App = () => {
       <div className="max-w-[1480px] m-auto ">
         <Header />
       </div>
-      <div className="px-1 max-w-[1600px] m-auto">
+      <div className="px-1 max-W ">
         <Slider />
       </div>
       <div className="max-w-[1100px] m-auto">
         <Promo values={value} />
       </div>
-      <div className="p-4 sm:grid sm:grid-cols-2 sm:grid-rows-2 sm:gap-3 lg:flex max-w-[1600px] m-auto">
+      <div className="p-4 sm:grid sm:grid-cols-2 sm:grid-rows-2 sm:gap-3 lg:flex max-W ">
         <Card_Container datas={data} />
       </div>
-      <div className="p-3 max-w-[1600px] m-auto">
+      <div className="p-3 max-W ">
         <Shop />
       </div>
-      <div className="">
+      <div className="max-W">
         <Card_Items />
       </div>
     </>

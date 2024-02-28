@@ -3,12 +3,15 @@ import { IoIosArrowForward } from "react-icons/io";
 const Card_Props = (props) => {
   return (
     <>
-      <div id="cards" className="mb-6">
-        <div className="w-[300px] rounded-md m-auto">
+      <div
+        id="cards"
+        className="mb-6 sm:mb-0"
+      >
+        <div className="w-full rounded-md m-auto">
           <img
             src={props.images}
             alt="Laptop"
-            className="h-[200px] w-full rounded-t-md object-cover"
+            className="h-[200px] w-full rounded-t-md object-center lg:object-center"
           />
           <div className="p-1">
             <h1 className="text-2xl font-semibold">{props.title}</h1>
