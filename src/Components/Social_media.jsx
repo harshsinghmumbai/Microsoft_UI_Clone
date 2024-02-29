@@ -15,7 +15,7 @@ const Social_media = () => {
             <AiFillYoutube className="text-2xl" />
           </div>
         </div>
-        <div className="button flex justify-end mt-5 px-3">
+        <div id="button" className="flex justify-end mt-5 px-3">
           <button className="bg-[#d8d8d8]  p-1 px-3 flex justify-center items-center sm:p-2 sm:px-4">
             <IoIosArrowRoundUp className="text-2xl" />
             <span className="text-base font-semibold  "> Back to Top</span>

@@ -8,10 +8,13 @@ import Shop from "./Components/Shop";
 import Card_Items from "./Components/Card_Items";
 import Promo_loop from "./API/Promo_loop";
 import Social_media from "./Components/Social_media";
+import Footer from "./Components/Footer";
+import Footer_container_items from "./API/Footer_container_item";
 
 const App = () => {
   const [data, setdata] = useState(Card_items1);
   const [value, setvalue] = useState(Promo_loop);
+  const [list, setlist] = useState(Footer_container_items);
   return (
     <>
       <div className="max-w-[1480px] m-auto ">
@@ -32,6 +35,9 @@ const App = () => {
       <div className="max-W">
         <Card_Items />
         <Social_media />
+      </div>
+      <div className="max-W">
+        <Footer lists={list} />
       </div>
     </>
   );
