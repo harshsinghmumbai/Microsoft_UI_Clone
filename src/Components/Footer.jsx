@@ -13,7 +13,7 @@ const Footer = ({ lists }) => {
   return (
     <>
       <footer className="w-full h-fit bg-[#f2f2f2] mt-14 ">
-        <div className="sm:grid sm:grid-rows-2 sm:grid-cols-3 lg:flex">
+        <div className="sm:grid sm:grid-rows-2 sm:grid-cols-3 lg:flex xl:flex xl:justify-around">
           {lists.map((elem, i) => {
             const { heading, li_1, li_2, li_3, li_4, li_5 } = elem;
             return (
