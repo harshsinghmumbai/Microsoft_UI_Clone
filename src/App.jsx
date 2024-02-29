@@ -7,6 +7,7 @@ import { useState } from "react";
 import Shop from "./Components/Shop";
 import Card_Items from "./Components/Card_Items";
 import Promo_loop from "./API/Promo_loop";
+import Social_media from "./Components/Social_media";
 
 const App = () => {
   const [data, setdata] = useState(Card_items1);
@@ -30,6 +31,7 @@ const App = () => {
       </div>
       <div className="max-W">
         <Card_Items />
+        <Social_media />
       </div>
     </>
   );
