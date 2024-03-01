@@ -19,7 +19,7 @@ const Header = () => {
           <div className="md:flex md:items-center md:order-first">
             <img
               id="logo"
-              src="../src/assets/logo.png"
+              src="Images/logo.png"
               alt=""
               className="w-28 h-7 cursor-pointer "
             />

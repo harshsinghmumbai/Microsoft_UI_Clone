@@ -7,7 +7,7 @@ const Slider = () => {
       >
         <div id="image" className="w-full lg:w-[60%] lg:h-full ">
           <img
-            src="../src/assets/Slider.avif"
+            src="Images/Slider.avif"
             alt=""
             className="h-full w-full object-contain lg:object-fill"
           />

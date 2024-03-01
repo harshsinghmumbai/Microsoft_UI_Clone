@@ -4,7 +4,7 @@ const Shop = () => {
       <div className="flex flex-col lg:px-10 w-full lg:flex lg:flex-row-reverse lg:justify-center lg:items-center lg:bg-[#e6e6e6] xl:h-[600px]   ">
         <div className="w-full rounded-md m-auto mt-10 relative md:z-0 lg:w-[70%] lg:h-full">
           <img
-            src="../src/assets/shop.jpg"
+            src="Images/shop.jpg"
             alt="Laptop"
             className="h-[200px] w-full rounded-t-md object-center sm:h-[400px] lg:object-cover lg:w-full xl:h-[500px]"
           />
