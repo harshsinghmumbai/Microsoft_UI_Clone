@@ -11,9 +11,8 @@
 # Tablet Responsive
 ![Screenshot (281)](https://github.com/harshsinghmumbai/Microsoft_UI_Clone/assets/145204222/8a001381-8902-4d14-8003-df27dd6a2d5f)
 ![Screenshot (282)](https://github.com/harshsinghmumbai/Microsoft_UI_Clone/assets/145204222/fef16ac3-b68a-427c-bda9-fd763a01ded9)
-![Screenshot (283)](https://github.com/harshsinghmumbai/Microsoft_UI_Clone/assets/145204222/04238483-3d1c-48c3-8698-ae9e6
+![Screenshot (283)](https://github.com/harshsinghmumbai/Microsoft_UI_Clone/assets/145204222/04238483-3d1c-48c3-8698-ae9e61e727f6)
 ![Screenshot (284)](https://github.com/harshsinghmumbai/Microsoft_UI_Clone/assets/145204222/1c477016-f969-456b-8e2b-fed2c7d60a48)
-1e727f6)
 
 # laptop Responsive
 ![Screenshot (285)](https://github.com/harshsinghmumbai/Microsoft_UI_Clone/assets/145204222/bbea9ffd-408d-4ef1-914a-bc48b5dcdecc)
